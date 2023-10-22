@@ -1,0 +1,60 @@
+.container {
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ageInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customize {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.2cm;
+    background-image: url(https://www.w3schools.com/css/img_flwr.gif), url(https://www.w3schools.com/css/paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+}
+
+ul.result {
+    padding: 0;
+}
+
+ul.result li {
+    font-weight: bolder;
+    font-family: 'Playfair Display';
+    font-size: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 20px;
+}
+
+.messageBox {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E9ECEF;
+    margin: 80px;
+    margin-bottom: 20px;
+    border-radius: 0.3cm;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+@media (max-width: 1200px) {
+    .messageBox {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #E9ECEF;
+        margin: 40px;
+        margin-bottom: 20px;
+        border-radius: 0.3cm;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+}
